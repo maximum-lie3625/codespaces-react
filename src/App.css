@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .App-logo {
@@ -28,4 +31,22 @@
 
 .small {
   font-size: 0.75rem;
+}
+.hello{
+  width: 400px ;
+  background-color: #ff0000;
+  height:400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  transition: 1s;
+}
+.hello h1{
+  font-size: 40px;
+}
+.hello:hover{
+  width: 450px;
+  height: 450px;
+  transition: 0.5s;
 }
